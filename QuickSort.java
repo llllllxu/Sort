@@ -13,6 +13,8 @@
        for(int i=0; i<l; i++){
        nums[i] = in.nextInt();
        }
+       in.close();
+    
        System.out.pintln("The order before sorting: ");
        for(int i=0; i<l; i++) {
        System.out.print(nums[i] + " ");
